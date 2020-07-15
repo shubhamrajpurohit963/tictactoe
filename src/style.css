@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color:yellow;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: none;
+    font-size: medium;
+    width: 200px;
+    text-transform: uppercase; 
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
+
+
+.box{
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons{
+    font-size: 30px;
+    color: white;
+}   
